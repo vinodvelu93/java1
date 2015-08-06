@@ -1,0 +1,19 @@
+public class NumberFormatException1 {
+
+	
+	public static void main(String[] args){
+		
+		String msg1 = "hello";
+		
+		try{
+			int i =Integer.parseInt(msg1);
+		   }
+		catch(NumberFormatException nfe)
+		{
+			System.out.println("Number Format Exception is handled");
+		}
+		
+		System.out.println(msg1);
+		
+	}
+}
